@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "name": "sectionReviews",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Junte-se a mais de 200 mil alunos"
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.review",
+      "min": 4,
+      "required": true
+    }
+  }
+}

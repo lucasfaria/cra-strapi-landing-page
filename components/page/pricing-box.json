@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "comment-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    },
+    "totalPrice": {
+      "type": "integer",
+      "default": 415,
+      "required": true
+    },
+    "installments": {
+      "type": "integer",
+      "required": true,
+      "default": 6
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Bullet list",
+      "required": true
+    }
+  }
+}

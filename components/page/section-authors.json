@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_authors",
+  "info": {
+    "name": "sectionAuthors",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "collection": "author"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Gitbub",
+        "Twitter",
+        "Dribble",
+        "LinkedIn",
+        "Instagram"
+      ],
+      "default": "Gitbub",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

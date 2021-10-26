@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "name": "button",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Comprar",
+      "required": true,
+      "maxLength": 20
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.udemy.com/course/react-avancado/?couponCode=PROMOOUT21"
+    }
+  }
+}
